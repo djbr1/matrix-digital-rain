@@ -7,4 +7,8 @@ This code has also been published on [Rosetta Code](https://rosettacode.org/wiki
 It was part of a [live coding session](https://www.meetup.com/rustcologne/events/286890733/) of the [Rust User Group Cologne](https://rust.cologne) to teach some basic Rust coding skills to beginners. For simplicity this code doesn't have any error handling when writing to the terminal.
 
 ### compile:
-`cargo build`
+install rust and cargo:
+` sudo apt install rustc;    sudo apt  install cargo `
+
+build:
+`cd src; cargo build`
