@@ -17,7 +17,7 @@ use std::{io::{Write, stdout, stdin}, iter::repeat, time::Duration};
 /// Character pool to pick from
 /// If your terminal is struggling with that choice, replace them by ordinary latin characters.
 /// There's currently no nicer way to initialize constant array in Rust
-const CHARS: [char; 322] = [
+const CHARS: [char; 32] = [
  'б', 'г', 'д', 'ђ', 'ж', 'з', 'и', 'л', 'љ', 'њ', 'п', 'ћ', 'ф', 'ц', 'џ', 'ш', 'Б', 'Г', 'Д', 'Ђ', 'Ж', 'З', 'И', 'Л', 'Љ', 'Њ', 'П', 'Ђ', 'Ф', 'Ц', 'Џ', 'Ш'
     ];
 
