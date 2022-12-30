@@ -210,7 +210,7 @@ fn main() {
         stdout.flush().unwrap();
 
         // slow down animation
-        std::thread::sleep(Duration::from_millis(50));
+        std::thread::sleep(Duration::from_millis(90));
     }
 
     // reset Terminal back to normal
